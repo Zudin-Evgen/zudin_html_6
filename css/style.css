@@ -10,20 +10,88 @@ body {
 }
 
 .wrapper {
-    width: 910px;
+    width: 909px;
     margin: auto;
 }
 
-
+ul li {
+    list-style: none;
+    display: inline;
+}
 
 /*-------------------------------------------HEADER-------------------------------*/
 
 /*--------------------------------------HEADER-CONTACTS-------------------------------*/
+.contacts {
+    font: 18px Arial, Tahoma, sans-serif;
+    color: #5e696d;
+}
 
-
-.phone {
+.phone-wrapper {
     background: linear-gradient(#0d3559,#317490);
     width: 22px;
     height: 22px;
     border-radius: 100%;
 }
+
+.phone {
+    background: url('../img/phone.png') no-repeat center;
+    height: 100%;
+}
+/*--------------------------------------HEADER-REGISTRATION-------------------------------*/
+
+.registration {
+    background: linear-gradient(#1f6787,#0c3357);
+    border-radius: 3px;
+    box-shadow: 3px 3px 1px #d0d0d0;
+}
+
+.reg-icon {
+    background: url('../img/reg-icon.png') no-repeat;
+    height: 18px;
+    width: 14px;
+}
+
+.reg-form input {
+    font-size: 11px;
+}
+
+.reg-form {
+    font-size: 11px;
+    color: #fff;
+}
+
+.forgot-pass {
+    text-decoration: underline;
+    color: #bfbfbf;
+    font-size: 12px;
+}
+
+/*--------------------------------------HEADER-MAIN-NAVIGATION-------------------------------*/
+
+.main-nav {
+    border: 1px solid #c5cbce;
+    border-radius: 13px;
+    box-shadow: 0 0 3px 1px #e9ebec;
+}
+/*--------------------------------------HEADER-LOGO-------------------------------*/
+
+.logo {
+    background: url('../img/logo.png');
+    width: 909px;
+    height: 237px;
+}
+
+/*--------------------------------------HEADER-MENU-------------------------------*/
+
+.menu-and-bucket {
+    background: linear-gradient(#505860 5%, #2d3236 20%,#000);
+    border-radius: 4px;
+    border-top: 1px solid #2c345a;
+    border-left: 1px solid #6a6f89;
+    border-right: 1px solid #0d1642;
+    border-bottom: 1px solid #0a1030;
+    box-shadow: 2px 2px 3px #525460;
+}
+
+
