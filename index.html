@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header class="header clear-fix">
             <section class="contacts">
                 <div class="phone-wrapper"><div class="phone"></div></div>
                 <p>(044)123-45-67 (044)567-89-10</p>
@@ -17,29 +17,39 @@
                 <form action="#" class="reg-form">
                     <input type="text" name="login" id="login" placeholder="логин">
                     <input type="password" name="pass" id="pass" placeholder="пароль">
-                    <p>вход|регистрация</p>
+                    <a href="#"><p>вход</p></a><p>|</p><a href="#"><p>регистрация</p></a>
                 </form>
-                <p class="forgot-pass">забыли пароль?</p>
+                <a href="#"><p class="forgot-pass">забыли пароль?</p></a>
             </section>
             <section class="main-nav">
                 <a href="#"><img src="img/home.png" alt="home"></a>
                 <a href="#"><img src="img/site-map.png" alt="site-map"></a>
                 <a href="#"><img src="img/send-letter.png" alt=""></a>
             </section>
-            <figure class="logo"></figure>
-            <div class="menu-and-bucket">
-                <nav class="menu">
-                    <ul>
-                        <li>ссылка 1</li>
-                        <li>ссылка 2</li>
-                        <li>ссылка 3</li>
-                        <li>ссылка 4</li>
-                        <li>ссылка 5</li>
-                    </ul>
-                </nav>
-                <section class="bucket"></section>
-            </div>
         </header>
+        <figure class="logo"></figure>
+        <div class="menu-and-basket clear-fix">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">О КОМПАНИИ</a></li>
+                    <li><a href="#">ОПЛАТА</a></li>
+                    <li><a href="#">ДОСТАВКА</a></li>
+                    <li><a href="#">СТАТЬИ</a></li>
+                    <li><a href="#">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+            <section class="basket">
+                <div class="basket-ico"></div>
+                <div class="product">
+                    <p class="purchased">товаров:</p>
+                    <p class="amount">0</p>
+                </div>
+                <div class="price">
+                    <p class="purchased">на сумму:</p>
+                    <p class="amount">0:00 грн</p>
+                </div>
+            </section>
+        </div>
         <section class="search">
             <section class="search-by-auto"></section>
             <section class="search-by-tires"></section>
