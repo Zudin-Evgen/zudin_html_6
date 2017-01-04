@@ -10,21 +10,23 @@
         <header class="header clear-fix">
             <div class="contacts">
                 <div class="phone-wrapper"><div class="phone"></div></div>
-                <p>(044)123-45-67 (044)567-89-10</p>
+                <p class="phone-numbers">(044)123-45-67 (044)567-89-10</p>
             </div>
             <div class="registration">
                 <div class="reg-icon"></div>
                 <form action="#" class="reg-form">
                     <input type="text" name="login" id="login" placeholder="логин">
                     <input type="password" name="pass" id="pass" placeholder="пароль">
-                    <a href="#"><p>вход</p></a><p>|</p><a href="#"><p>регистрация</p></a>
+                    <a href="#" class="enter"><p>вход</p></a><a href="#"><p>регистрация</p></a>
                 </form>
-                <a href="#"><p class="forgot-pass">забыли пароль?</p></a>
+                <a href="#" class="forgot-pass">забыли пароль?</a>
             </div>
             <div class="main-nav">
-                <a href="#"><img src="img/home.png" alt="home"></a>
-                <a href="#"><img src="img/site-map.png" alt="site-map"></a>
-                <a href="#"><img src="img/send-letter.png" alt=""></a>
+                <div class="link-wrapper">
+                    <a href="#"><img src="img/home.png" alt="home"></a>
+                    <a href="#"><img src="img/site-map.png" alt="site-map"></a>
+                    <a href="#"><img src="img/send-letter.png" alt=""></a>
+                </div>
             </div>
         </header>
         <figure class="logo"></figure>
@@ -44,7 +46,7 @@
                     <p class="taken">товаров:</p>
                     <p class="amount">0</p>
                 </div>
-                <div class="product-price">
+                <div class="basket-price">
                     <p class="amount-of">на сумму:</p>
                     <p class="price">0,00 грн</p>
                 </div>
@@ -201,24 +203,25 @@
         </aside>
         </div>
         <div class="trade-marks-wrap">
-        <div class="trade-marks">
-            <img src="img/brand8.png">
-            <img src="img/brand7.png">
-            <img src="img/brand6.png">
-            <img src="img/brand5.png">
-            <img src="img/brand4.png">
-            <img src="img/brand3.png">
-            <img src="img/brand2.png">
-            <img src="img/brand1.png">
-        </div>
+            <div class="trade-marks">
+                <img src="img/brand8.png">
+                <img src="img/brand7.png">
+                <img src="img/brand6.png">
+                <img src="img/brand5.png">
+                <img src="img/brand4.png">
+                <img src="img/brand3.png">
+                <img src="img/brand2.png">
+                <img src="img/brand1.png">
+            </div>
         </div>
         <footer class="footer">
             <ul class="footer-links">
-                <li><a href="#">О компании</a></li>
-                <li><a href="#">Доставка</a></li>
-                <li><a href="#">Статьи</a></li>
+                <li><a href="#">О компании</a></li> |
+                <li><a href="#">Доставка</a></li> |
+                <li><a href="#">Статьи</a></li> |
                 <li><a href="#">Контакты</a></li>
             </ul>
+            <p class="copyright">Создание сайта © Global Vision</p>
         </footer>
     </div>
 </body>

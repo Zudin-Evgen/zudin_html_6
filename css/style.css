@@ -32,17 +32,17 @@ ul li {
 
 /*--------------------------------------HEADER-CONTACTS-------------------------------*/
 .contacts {
-    font: 18px Arial, Tahoma, sans-serif;
+    font: 500 18px Arial, Tahoma, sans-serif;
     color: #5e696d;
-    width: 276px;
+    width: 280px;
     float: left;
     margin-left: 7px;
 }
 
 .phone-wrapper {
     background: linear-gradient(#0d3559,#317490);
-    width: 22px;
-    height: 22px;
+    width: 21px;
+    height: 21px;
     border-radius: 100%;
     float: left;
 }
@@ -51,6 +51,11 @@ ul li {
     background: url('../img/phone.png') no-repeat center;
     height: 100%;
 }
+
+.phone-numbers {
+    float: left;
+    padding-left: 2px;
+}
 /*--------------------------------------HEADER-REGISTRATION-------------------------------*/
 
 .registration {
@@ -58,41 +63,55 @@ ul li {
     border-radius: 3px;
     box-shadow: 3px 3px 1px #dfdfdf;
     float: left;
-    width: 495px;
-    padding: 4px 3px;
-    margin-left: 16px;
+    width: 498px;
+    margin-left: 27px;
+    padding-bottom: 2px;
 }
+
 
 .reg-icon {
     background: url('../img/reg-icon.png') no-repeat;
     height: 18px;
     width: 14px;
-    float: left;
-}
-
-.reg-form input {
-    font-size: 11px;
-    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 7px;
 }
 
 .reg-form {
     font-size: 11px;
     color: #fff;
-    float: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reg-form *{
+    display: inline-block;
+}
+
+.reg-form input {
+    font-size: 11px;
+    width: 109px;
+    margin-right: 3px;
+    padding-left: 2px;
 }
 
 .reg-form a {
     color: #fff;
 }
 
-.reg-form a,.reg-form p {
-    float: left;
+.enter::after {
+    content: '|';
+    margin: 0 2px;
 }
 
 .forgot-pass {
     text-decoration: underline;
     color: #bfbfbf;
-    font-size: 11px;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 13px;
 }
 
 /*--------------------------------------HEADER-MAIN-NAVIGATION-------------------------------*/
@@ -102,30 +121,44 @@ ul li {
     border-radius: 13px;
     box-shadow: 0 0 3px 1px #e9ebec;
     float: left;
-    width: 80px;
+    width: 75px;
+    height: 20px;
     text-align: center;
     margin-left: 14px;
+    position: relative;
 }
+
+.link-wrapper {
+    position: absolute;
+    top: -5px; left: -2px;
+    right: 0; bottom: 0;
+    margin: auto;
+}
+
+.main-nav a{
+    margin: 0 1px;
+}
+
 /*--------------------------------------LOGO-------------------------------*/
 
 .logo {
     background: url('../img/logo.png');
     width: 909px;
     height: 237px;
-    margin: 5px 0;
+    margin: 6px 0;
 }
 
 /*--------------------------------------MENU AND BASKET SETTINGS-------------------------------*/
 
 .menu-and-basket {
     background: linear-gradient(#505860 5%, #2d3236 20%,#000);
-    border-radius: 4px;
+    border-radius: 5px;
     border-top: 1px solid #2c345a;
     border-left: 1px solid #6a6f89;
     border-right: 1px solid #0d1642;
     border-bottom: 1px solid #0a1030;
     box-shadow: 2px 2px 3px #525460;
-    font-size: 13px;
+    font-size: 14px;
     padding: 6px 0 5px 0;
     margin-bottom: 10px;
 }
@@ -133,8 +166,8 @@ ul li {
 /*--------------------------------------MENU-------------------------------*/
 
 .menu {
-    width: 564px;
-    margin-left: 125px;
+    width: 555px;
+    margin-left: 129px;
     float: left;
 }
 
@@ -144,7 +177,7 @@ ul li {
 
 .menu ul li a {
     color: #b1bcc0;
-    padding: 3px 15px;
+    padding: 2px 13px;
 }
 
 .menu ul li a:hover {
@@ -194,6 +227,7 @@ ul li {
     font-size: 12px;
     color: #0d5a8f;
     float: left;
+    margin-left: 7px;
 }
 
 /*--------------------------------------ASIDES SETTINGS-------------------------------*/
@@ -210,9 +244,9 @@ ul li {
 .aside-header {
     border: 1px solid #c5cbce;
     border-radius: 15px;
-    box-shadow: 1px 1px 3px #b1b2b3;
-    padding: 4px 2px 2px;
-    height: 24px;
+    box-shadow: 2px 2px 3px #8b8c8d;
+    padding: 2px 2px 1px;
+    height: 22px;
     margin-bottom: 15px;
 }
 
@@ -251,7 +285,7 @@ ul li {
     border: 1px solid #c5cbce;
     border-radius: 12px;
     height: 24px;
-    width: 150px;
+    width: 143px;
     padding: 2px 2px;
     margin-bottom: 4px;
 }
@@ -287,8 +321,13 @@ ul li {
 
 .product-catalog ul li {
     list-style: circle;
-    height: 30px;
+    margin-bottom: 5px;
 }
+
+.product-catalog ul li:last-child {
+    margin-bottom: 0;
+}
+
 
 .product-catalog ul li a {
     font-size: 13px;
@@ -352,13 +391,13 @@ main {
 .product-container {
     float: left;
     text-align: center;
-    margin-right: 23px;
+    margin-right: 8px;
     padding: 18px 0 0 22px;
 }
 
 .photo-background {
     background: #fff;
-    width: 125px;
+    width: 136px;
     border: 1px solid #b1b2b3;
     border-radius: 8px;
     text-align: center;
@@ -384,13 +423,14 @@ main {
 .product-price {
     margin-top: 3px;
     color: #114165;
-    font: italic bold 16px Arial, Tahoma, sans-serif;
+    font: italic 900 16px Arial, Tahoma, sans-serif;
 }
 
 /*--------------------------------------FOOTER-------------------------------*/
 .trade-marks-wrap {
     position: relative;
-    margin-top: 20px;
+    margin-top: 35px;
+    height: 50px;
 }
 
 .trade-marks {
@@ -407,8 +447,31 @@ main {
     vertical-align: middle;
 }
 
+.footer {
+    text-align: center;
+    background: #213a4d;
+    height: 100px;
+    padding-top: 10px;
+}
 
 .footer-links li{
     display: inline-block;
 }
+
+.footer-links a {
+    font: 12px Arial, sans-serif;
+    color: #bec6c9;
+    height: 100px;
+}
+
+.footer-links a:hover {
+    color: #52abcb;
+}
+
+.copyright {
+    color: #7f4740;
+    font: 10px Arial, sans-serif;
+    margin-top: 10px;
+}
+
 
