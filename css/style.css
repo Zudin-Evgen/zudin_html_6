@@ -133,7 +133,7 @@ ul li {
 /*--------------------------------------MENU-------------------------------*/
 
 .menu {
-    width: 565px;
+    width: 564px;
     margin-left: 125px;
     float: left;
 }
@@ -387,4 +387,28 @@ main {
     font: italic bold 16px Arial, Tahoma, sans-serif;
 }
 
+/*--------------------------------------FOOTER-------------------------------*/
+.trade-marks-wrap {
+    position: relative;
+    margin-top: 20px;
+}
+
+.trade-marks {
+    width: 699px;
+    position: absolute;
+    top: 0; left: 0;
+    bottom: 0; right: 0;
+    margin: auto;
+}
+
+.trade-marks img {
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+
+.footer-links li{
+    display: inline-block;
+}
 
