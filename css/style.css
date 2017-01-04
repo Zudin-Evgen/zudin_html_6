@@ -22,7 +22,6 @@ body {
 
 a {
     text-decoration: none;
-    color: #fff;
 }
 
 ul li {
@@ -82,6 +81,10 @@ ul li {
     float: left;
 }
 
+.reg-form a {
+    color: #fff;
+}
+
 .reg-form a,.reg-form p {
     float: left;
 }
@@ -124,6 +127,7 @@ ul li {
     box-shadow: 2px 2px 3px #525460;
     font-size: 13px;
     padding: 6px 0 5px 0;
+    margin-bottom: 10px;
 }
 
 /*--------------------------------------MENU-------------------------------*/
@@ -140,7 +144,7 @@ ul li {
 
 .menu ul li a {
     color: #b1bcc0;
-    padding: 3px 21px;
+    padding: 3px 15px;
 }
 
 .menu ul li a:hover {
@@ -167,7 +171,7 @@ ul li {
     height: 17px;
 }
 
-.purchased {
+.taken {
     font-size: 11px;
     color: #929b9f;
     float: left;
@@ -178,3 +182,209 @@ ul li {
     color: #0d5a8f;
     float: left;
 }
+
+.amount-of {
+    font-size: 11px;
+    color: #929b9f;
+    float: left;
+    margin-left: 15px;
+}
+
+.price {
+    font-size: 12px;
+    color: #0d5a8f;
+    float: left;
+}
+
+/*--------------------------------------ASIDES SETTINGS-------------------------------*/
+
+/*--------------------------------------ASIDE HEADER-------------------------------*/
+.product-catalog, .brands {
+    font-size: 13px;
+    color: #0c3256;
+    width: 182px;
+    float: left;
+}
+
+
+.aside-header {
+    border: 1px solid #c5cbce;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px #b1b2b3;
+    padding: 4px 2px 2px;
+    height: 24px;
+    margin-bottom: 15px;
+}
+
+.aside-header div {
+    float: left;
+}
+
+.file-icon-wrap {
+    background: linear-gradient(#317490,#0d3559);
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+}
+
+.file-icon {
+    background: url('../img/aside-header-icon.png') no-repeat center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.aside-header h2 {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 3px 0 0 3px;
+}
+
+
+/*--------------------------------------ASIDE SUBCATALOG-------------------------------*/
+
+.sub-catalog div {
+    float: left;
+}
+
+.sub-catalog {
+    border: 1px solid #c5cbce;
+    border-radius: 12px;
+    height: 24px;
+    width: 150px;
+    padding: 2px 2px;
+    margin-bottom: 4px;
+}
+
+.sub-catalog-icon {
+    background: #114165;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    float: left;
+    position: relative;
+}
+
+.white-circle {
+    background: #fff no-repeat;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin: auto;
+}
+
+.sub-catalog h3 {
+    font-size: 13px;
+    font-weight: normal;
+    margin: 3px 0 0 2px;
+}
+
+.product-catalog ul {
+    padding-left: 50px;
+}
+
+.product-catalog ul li {
+    list-style: circle;
+    height: 30px;
+}
+
+.product-catalog ul li a {
+    font-size: 13px;
+    color: #0c3256;
+}
+
+.product-catalog ul li a:hover {
+    font: italic bold 14px Arial, Tahoma, sans-serif;
+    color: #0c3256;
+    text-decoration: underline;
+}
+
+/*--------------------------------------FORM-CHECKBOX-------------------------------*/
+.brands form p{
+    position: relative;
+    padding-left: 14px;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-left: 30px;
+    color: #465961;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    top: 3px;
+}
+
+.choose-button {
+    font-family: Arial, sans-serif;
+    margin-left: 14px;
+    padding: 7px 12px 7px;
+    background: linear-gradient(#1f6787, #0c3357);
+    border-radius: 13px;
+    color: #fff;
+    box-shadow: 2px 2px 2px #acacac;
+    border: none;
+}
+
+.choose-button:active {
+    padding: 9px 12px 5px;
+    outline: none;
+}
+
+.choose-button:focus {
+    outline: none;
+}
+
+/*--------------------------------------MAIN CONTENT-------------------------------*/
+
+main {
+    float: left;
+    margin: auto 9px;
+    width: 526px;
+    height: 619px;
+    background: linear-gradient(#e4e7e8, #93a7b0);
+    border-radius: 3px;
+}
+
+.product-container {
+    float: left;
+    text-align: center;
+    margin-right: 23px;
+    padding: 18px 0 0 22px;
+}
+
+.photo-background {
+    background: #fff;
+    width: 125px;
+    border: 1px solid #b1b2b3;
+    border-radius: 8px;
+    text-align: center;
+    padding: 4px 0;
+}
+
+.product-photo {
+    vertical-align: middle;
+}
+
+.product-name {
+    color: #206988;
+    font-size: 15px;
+    height: 15px;
+}
+
+.description {
+    color: #1f2528;
+    font-size: 13px;
+    height: 18px;
+}
+
+.product-price {
+    margin-top: 3px;
+    color: #114165;
+    font: italic bold 16px Arial, Tahoma, sans-serif;
+}
+
+
