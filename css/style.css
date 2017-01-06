@@ -387,7 +387,7 @@ input[type="checkbox"] {
 }
 
 .choose-button:active {
-    padding: 9px 12px 5px;
+    padding: 9px 15px 4px;
     outline: none;
 }
 
