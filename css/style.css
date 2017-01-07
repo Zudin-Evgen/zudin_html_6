@@ -123,20 +123,23 @@ ul li {
     float: left;
     width: 75px;
     height: 20px;
-    text-align: center;
     margin-left: 14px;
-    position: relative;
 }
 
-.link-wrapper {
-    position: absolute;
-    top: -5px; left: -2px;
-    right: 0; bottom: 0;
-    margin: auto;
+.main-nav ul {
+    text-align: center;
+    line-height: 1em;
+    margin-right: 4px;
 }
 
-.main-nav a{
-    margin: 0 1px;
+.main-nav ul li {
+    display: inline-block;
+}
+
+.main-nav a {
+    display: block;
+    width: 16px;
+    margin-right: 1px;
 }
 
 /*--------------------------------------LOGO-------------------------------*/
@@ -159,28 +162,32 @@ ul li {
     border-bottom: 1px solid #0a1030;
     box-shadow: 2px 2px 3px #525460;
     font-size: 14px;
-    padding: 6px 0 5px 0;
+    padding: 2px 0 3px 0;
     margin-bottom: 10px;
 }
 
 /*--------------------------------------MENU-------------------------------*/
-
+nav {
+    display: inline-block;
+}
 .menu {
     width: 555px;
-    margin-left: 129px;
-    float: left;
+    margin-left: 126px;
+    line-height: 1.9em;
+    padding-top: 2px;
 }
 
-.menu ul li{
+.menu li{
     display: inline-block;
 }
 
-.menu ul li a {
+.menu li a {
     color: #b1bcc0;
-    padding: 2px 13px;
+    padding: 0 13px;
+    display: block;
 }
 
-.menu ul li a:hover {
+.menu li a:hover{
     background: linear-gradient(#225d76, #0c3357);
     border-radius: 20px;
     color: #fff;
@@ -188,10 +195,9 @@ ul li {
 
 /*--------------------------------------BASKET-------------------------------*/
 .basket {
-    width: 217px;
-    height: 17px;
-    float: left;
     font-family: Arial, Tahoma, sans-serif;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .basket div {
@@ -275,14 +281,19 @@ ul li {
 .aside-header h2 {
     font-size: 12px;
     font-weight: normal;
-    margin: 3px 0 0 3px;
+    line-height: 1rem;
+    padding: 3px 0;
+    margin-left: 4px;
 }
 
 
 /*--------------------------------------ASIDE SUBCATALOG-------------------------------*/
+.product-catalog {
+    padding-top: 3px;
+}
 
-.sub-catalog div {
-    float: left;
+.sub-catalog-section {
+    padding-left: 3px;
 }
 
 .sub-catalog {
@@ -295,12 +306,25 @@ ul li {
 }
 
 .sub-catalog-icon {
+    float: left;
     background: #114165;
     width: 24px;
     height: 24px;
     border-radius: 100%;
-    float: left;
     position: relative;
+}
+
+.sub-catalog-header {
+    float: left;
+    display: block;
+    line-height: 1rem;
+    padding: 5px 0;
+    margin-left: 3px;
+}
+
+.sub-catalog h3 {
+    font-size: 13px;
+    font-weight: normal;
 }
 
 .white-circle {
@@ -313,19 +337,14 @@ ul li {
     margin: auto;
 }
 
-.sub-catalog h3 {
-    font-size: 13px;
-    font-weight: normal;
-    margin: 3px 0 0 2px;
-}
-
 .product-catalog ul {
     padding-left: 43px;
 }
 
 .product-catalog ul li {
     list-style: circle;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    line-height: 1rem;
 }
 
 .product-catalog ul li:last-child {
@@ -336,12 +355,14 @@ ul li {
 .product-catalog ul li a {
     font-size: 13px;
     color: #0c3256;
+    display: block;
 }
 
 .product-catalog ul li a:hover {
     font: italic bold 14px Arial, Tahoma, sans-serif;
     color: #0c3256;
     text-decoration: underline;
+    line-height: 0.1em;
 }
 
 /*--------------------------------------FORM-CHECKBOX-------------------------------*/
