@@ -397,7 +397,7 @@ input[type="checkbox"] {
 
 /*--------------------------------------MAIN CONTENT-------------------------------*/
 
-main {
+.main-content {
     float: left;
     margin: auto 9px;
     padding-top: 12px;
